@@ -76,3 +76,27 @@
 ```
 ------------------------------------------------------------------------------
 
+# How to run the Code?
+-------------------------------------------------------------------------------
+### First install the following package if not already installed:
+
+#### kafka-python package
+##### Command:
+```
+pip install kafka-python
+```
+
+### 1. To run the producer.py:
+
+```
+python producer.py <topic_name>
+```
+
+### 2. To run the consumer.py:
+
+```
+python consumer.py <topic_name>
+```
+
+Note: To exit the producer code, enter "exit".
+-------------------------------------------------------------------------------
